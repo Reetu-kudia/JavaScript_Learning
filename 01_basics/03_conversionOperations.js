@@ -1,3 +1,5 @@
+//****************************** Conversion ************************************* */
+
 /* // Example 1
 let score2="33"
 console.log(typeof score2);  //way 1 
@@ -76,11 +78,64 @@ console.log(typeof booleanLoggedIn2);
 */
 
 
-//Example 8
+/* //Example 8
 let someNumber=33
 let StringNumber=String(someNumber)
 console.log(StringNumber);
-console.log(typeof StringNumber);
+console.log(typeof StringNumber); */
+
+
+//**************************************Operations****************************************/
+
+let value=3
+let negvalue = -(value)
+// console.log(negvalue);
+
+// console.log(2+2);
+// console.log(3-2);
+// console.log(2*2);
+// console.log(2**4);
+// console.log(4/2);
+// console.log(2%2);
+
+
+let str1 ="hello"
+let str2 = " Reetu"
+let str3 = str1+str2
+// console.log(str3);
+// console.log(str1+str2);
+
+// console.log("1"+2);
+// console.log("2"+1);
+// console.log("2"*2);
+// console.log(2*"2");
+// console.log("2"-2);
+// console.log(2-"2");
+// console.log("4"/2);
+// console.log(4/"2");
+// console.log("1"+2+2); //if string is first then all others are also consider as string //avoid using this type of code
+// console.log(1+2+"2"); // if string is in last then it will perform the task first then take string //avoid using this type of code
+// console.log("1"+(2+2)); 
+// console.log((1+2)+"2");
+// console.log(3*4+1-2+5/2+4%2);//avoid using this type of code
+// console.log((3*4)+1-(2+5)/(2+(4%2))); //brackets 
+
+// console.log(true); //avoid using this type of code
+// console.log(+true);//avoid using this type of code
+// console.log(+"");//avoid using this type of code
+
+// let num1,num2,num3 //avoid using this type of code
+// num1=num2=num3=2+2 //avoid using this type of code
+// console.table([num1,num2,num3])
+
+let gameCounter=100
+gameCounter++; //postfix operator //values are increase after usage
+console.log(gameCounter);
+++gameCounter; //prefix operator //values are increase first
+console.log(gameCounter);
+
+
+
 
 
 
