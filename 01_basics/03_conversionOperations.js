@@ -9,7 +9,7 @@ let valueInNumber=Number (score2) //to convert and type First letter should be c
 console.log(valueInNumber);
 console.log(typeof valueInNumber); */
 
-/* //Example 2
+ //Example 2
 let score="33abc"
 console.log(score);
 console.log(typeof score);
@@ -17,25 +17,25 @@ console.log(typeof score);
 let valueInNumber2=Number(score)
 console.log(typeof valueInNumber2); //output is number
 console.log(valueInNumber2);  //output is NaN (Not an Number)
-//"33abc" is not a pure number , JS will convert it in number but will give value as NaN */
+//"33abc" is not a pure number , JS will convert it in number but will give value as NaN 
 
-/* //Example 3
+ //Example 3
 let score1=null
 console.log(typeof score1) // output object
 
 let valueInNumber1=Number(score1)
 console.log(typeof valueInNumber1); //output number
-console.log(valueInNumber1); //output 0  */
+console.log(valueInNumber1); //output 0  
 
 
-/* //Example 4
+//Example 4
 let score3=undefined
 console.log(typeof score) //output undefined
 
 let valueInNumber3=Number(score3)
 console.log(typeof valueInNumber3); //output number
 console.log(valueInNumber3);  //output NaN
-//it convert the score3 type but the value is NaN */
+//it convert the score3 type but the value is NaN 
 
 
 /*// Example 5
