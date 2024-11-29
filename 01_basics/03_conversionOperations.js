@@ -1,13 +1,12 @@
 //****************************** Conversion ************************************* */
-
-/* // Example 1
+// Example 1
 let score2="33"
 console.log(typeof score2);  //way 1 
 console.log(typeof (score2));  // way 2 as method
 
 let valueInNumber=Number (score2) //to convert and type First letter should be capital
 console.log(valueInNumber);
-console.log(typeof valueInNumber); */
+console.log(typeof valueInNumber); 
 
  //Example 2
 let score="33abc"
@@ -38,16 +37,16 @@ console.log(valueInNumber3);  //output NaN
 //it convert the score3 type but the value is NaN 
 
 
-/*// Example 5
+// Example 5
 let score4=true
 console.log(typeof score4);
 
 let valueInNumber4=Number(score4);
 console.log(typeof valueInNumber4);
-console.log(valueInNumber4); */
+console.log(valueInNumber4); 
 
 
-/*//Example 6
+//Example 6
 let isLoggedin=""
 console.log(isLoggedin);
 console.log(typeof isLoggedin);
@@ -56,7 +55,7 @@ let booleanLoggedIn=Boolean(isLoggedin)
 console.log(booleanLoggedIn);
 console.log(typeof booleanLoggedIn);
 // if isLoggedin=1 (true) , if isLoggedin=0(false) , if isLoggedin="" (false) ,if isLoggedin="Reetu" (true)
-*/
+
 
 
 /*//Example 7
@@ -78,11 +77,11 @@ console.log(typeof booleanLoggedIn2);
 */
 
 
-/* //Example 8
+//Example 8
 let someNumber=33
 let StringNumber=String(someNumber)
 console.log(StringNumber);
-console.log(typeof StringNumber); */
+console.log(typeof StringNumber); 
 
 
 //**************************************Operations****************************************/
