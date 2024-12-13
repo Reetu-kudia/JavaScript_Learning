@@ -4,7 +4,7 @@ let score2="33"
 console.log(typeof score2);  //way 1 
 console.log(typeof (score2));  // way 2 as method
 
-let valueInNumber=Number (score2) //to convert and type First letter should be capital
+let valueInNumber=Number (score2) //to convert type First letter should be capital
 console.log(valueInNumber);
 console.log(typeof valueInNumber); 
 
@@ -38,6 +38,7 @@ console.log(valueInNumber3);  //output NaN
 
 
 // Example 5
+console.log("............EXample 5..........")
 let score4=true
 console.log(typeof score4);
 
@@ -47,6 +48,7 @@ console.log(valueInNumber4);
 
 
 //Example 6
+console.log("........Example 6.........")
 let isLoggedin=""
 console.log(isLoggedin);
 console.log(typeof isLoggedin);
@@ -78,6 +80,7 @@ console.log(typeof booleanLoggedIn2);
 
 
 //Example 8
+console.log("........Example 8.......")
 let someNumber=33
 let StringNumber=String(someNumber)
 console.log(StringNumber);
