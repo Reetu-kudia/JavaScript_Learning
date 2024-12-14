@@ -53,3 +53,27 @@ String=String
 Number=Number
 function=Function Object
 */
+
+
+console.log("*******************************Stack & Heap*******************************************")
+// Example of Stack
+let myYoutubename="Reetu@youtube"
+let anothername=myYoutubename
+console.log(anothername)
+anothername="kudia@youtube"
+console.log(anothername);
+console.log(myYoutubename);
+
+
+//Example of Heap
+let userOne = {
+    email:"Reetu@gmail.com",
+    age:21 
+}
+
+let userTwo=userOne
+
+userTwo.email="Vimla@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
