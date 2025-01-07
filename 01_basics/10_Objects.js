@@ -45,3 +45,19 @@ console.log(typeof user2[mysym2]); // Outputs "symbol"
 
 */
 
+
+//How to change value in Object
+
+const myuser1={
+    name:"Vimla",
+    age:"23",
+    email:"vimla@gmail.com"
+}
+console.log(myuser1["email"]);
+myuser1.email="vim@gmail.com"
+console.log(myuser1["email"]);
+
+//If you dont want to change value then used freeze method
+Object.freeze(myuser1);
+myuser1.email="vimla1234@gmail.com"
+console.log(myuser1);
