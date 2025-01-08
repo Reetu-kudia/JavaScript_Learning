@@ -53,11 +53,34 @@ const myuser1={
     age:"23",
     email:"vimla@gmail.com"
 }
-console.log(myuser1["email"]);
+//console.log(myuser1["email"]);
 myuser1.email="vim@gmail.com"
-console.log(myuser1["email"]);
+//console.log(myuser1["email"]);
 
 //If you dont want to change value then used freeze method
 Object.freeze(myuser1);
 myuser1.email="vimla1234@gmail.com"
-console.log(myuser1);
+//console.log(myuser1);
+//console.log(myuser1.email);
+//console.log(myuser1["email"]);
+
+//Adding Functions in Objects
+const user3={
+    name:"Reetu",
+    age:"21",
+    email:"reetu@gmail.com"
+}
+
+//Method 1
+user3.greetings=function(){
+   //console.log("Hello Reetu") // nothing get print
+}
+//console.log(user3.greetings);  //anonymous function
+//console.log(user3.greetings()); //undefined
+
+//Method 2
+user.greetingstwo=function(){
+ console.log('Hello Reetu,${this.email}');
+}
+console.log(user3.greetingstwo());
+
