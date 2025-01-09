@@ -85,8 +85,7 @@ user.greetingstwo=function(){
 }
 console.log(user3.greetingstwo());
 */
-//..............................Constructor...........................
-
+//............................................Constructor...............................................
 //e.g 1
 const tinderuser=new Object()
 //console.log(tinderuser);
