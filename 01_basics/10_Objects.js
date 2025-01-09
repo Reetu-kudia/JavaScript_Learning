@@ -45,6 +45,7 @@ console.log(typeof user2[mysym2]); // Outputs "symbol"
 
 */
 
+/*
 
 //How to change value in Object
 
@@ -83,4 +84,79 @@ user.greetingstwo=function(){
  console.log('Hello Reetu,${this.email}');
 }
 console.log(user3.greetingstwo());
+*/
+//..............................Constructor...........................
+
+//e.g 1
+const tinderuser=new Object()
+//console.log(tinderuser);
+
+//e.g 2
+const tinderuser1={}
+//console.log(tinderuser1);
+
+//e.g 3
+const tinderuser2={}
+tinderuser2.name="Sammy"
+tinderuser2.id="123abc"
+tinderuser2.isLoggedIn=false
+//console.log(tinderuser2);
+
+//e.g 4 object ke under object
+const tinderuser3={
+    email:"reetu@gmail.com",
+    fullname:{
+        userfullname:{
+            fristname:"Reetu",
+            lastname:"Kudia"
+        }
+    },
+    Address:"Chembur"
+}
+//console.log(tinderuser3);
+//console.log(tinderuser3.fullname);
+//console.log(tinderuser3.fullname.userfullname);
+//console.log(tinderuser3.fullname.userfullname.fristname);
+//console.log(tinderuser3.fullname?.userfullname.fristname);   // ? this is known as optional chaining // suppose full name does not exist in object ..then this help as to find that it exist or not. // Mostly used in API//if you dont used this you have to do it by using If else.
+
+//e.g 5 Combining and merging 
+
+const obj1={1:"a" ,2:"b"}
+const obj2={3:"c",4:"d"}
+
+const obj3={obj1,obj2}
+//console.log(obj3);
+
+const obj4=Object.assign(obj1,obj2);
+//console.log(obj4);
+
+const obj5=Object.assign({},obj1,obj2)  // above obj 4 is also same //better to used these .
+//console.log(obj5);
+
+const obj6={...obj1,...obj2}  // mostly this is used
+//console.log(obj6);
+
+//e.g values coming from that database
+
+const user=[ // array  // this is a example of array that consist many objects
+{
+    id:1,
+    email:"reetu@gmail.com"
+},
+{
+    id:2,
+    email:"divya@gmail.com"
+},
+{
+    id:3,
+    email:"priti@gmail.com"
+},
+]
+console.log(user[1].email);  // way to access value // this is a array that why user[1] give value of user who's id is 2 and email is divya@gmail.com
+console.log(tinderuser3);
+console.log(Object.keys(tinderuser3));  // this will give you all keys and the datatype is array ... which help to used this keys, you can also apply loop.
+console.log(Object.values(tinderuser3));
+console.log(Object.entries(tinderuser3)); // rarely used //this give array inside array//
+console.log(tinderuser3.hasOwnProperty('isLoggedIn')); // sometimes we do looping is objects and there may be chances that value is not present in object ...that there is a high chance that it get Crashed.
+console.log(tinderuser3.hasOwnProperty('Address')); // Above also same example// if the value is present it give true else false 
 
