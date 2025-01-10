@@ -156,7 +156,7 @@ const user=[ // array  // this is a example of array that consist many objects
 //console.log(Object.keys(tinderuser3));  // this will give you all keys and the datatype is array ... which help to used this keys, you can also apply loop.
 //console.log(Object.values(tinderuser3));
 //console.log(Object.entries(tinderuser3)); // rarely used //this give array inside array//
-//console.log(tinderuser3.hasOwnProperty('isLoggedIn')); // sometimes we do looping is objects and there may be chances that value is not present in object ...that there is a high chance that it get Crashed.
+//console.log( .hasOwnProperty('isLoggedIn')); // sometimes we do looping is objects and there may be chances that value is not present in object ...that there is a high chance that it get Crashed.
 //console.log(tinderuser3.hasOwnProperty('Address')); // Above also same example// if the value is present it give true else false 
 
 
