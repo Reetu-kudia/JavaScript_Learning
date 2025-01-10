@@ -151,11 +151,64 @@ const user=[ // array  // this is a example of array that consist many objects
     email:"priti@gmail.com"
 },
 ]
-console.log(user[1].email);  // way to access value // this is a array that why user[1] give value of user who's id is 2 and email is divya@gmail.com
-console.log(tinderuser3);
-console.log(Object.keys(tinderuser3));  // this will give you all keys and the datatype is array ... which help to used this keys, you can also apply loop.
-console.log(Object.values(tinderuser3));
-console.log(Object.entries(tinderuser3)); // rarely used //this give array inside array//
-console.log(tinderuser3.hasOwnProperty('isLoggedIn')); // sometimes we do looping is objects and there may be chances that value is not present in object ...that there is a high chance that it get Crashed.
-console.log(tinderuser3.hasOwnProperty('Address')); // Above also same example// if the value is present it give true else false 
+//console.log(user[1].email);  // way to access value // this is a array that why user[1] give value of user who's id is 2 and email is divya@gmail.com
+//console.log(tinderuser3);
+//console.log(Object.keys(tinderuser3));  // this will give you all keys and the datatype is array ... which help to used this keys, you can also apply loop.
+//console.log(Object.values(tinderuser3));
+//console.log(Object.entries(tinderuser3)); // rarely used //this give array inside array//
+//console.log(tinderuser3.hasOwnProperty('isLoggedIn')); // sometimes we do looping is objects and there may be chances that value is not present in object ...that there is a high chance that it get Crashed.
+//console.log(tinderuser3.hasOwnProperty('Address')); // Above also same example// if the value is present it give true else false 
+
+
+//..................................De-Structure and JSON API.......................................................
+
+// We can do de structuring in array and object.
+//We can use de structuring to take values from object , even we can direct accees values in object using . and "" , but de structuring is mostly used.
+
+//e.g 1
+const course={
+    coursename:"JavaScript",
+    price:"999",
+    courseinstructor:"Reetu"
+}
+
+//console.log(course.courseinstructor); // to directly access 
+/*using de=structure to access values 
+const {courseinstructor}=course
+console.log(courseinstructor);
+const {courseinstructor:instructor}=course  //you can change the name if you WakeLockSentinel.
+console.log(instructor);*/
+
+//Example of De-Structure in ReactJs
+const navbar=({comapny})=>{
+//you want to de structure company
+}
+navbar(comapny="Deepu Kudia")
+
+
+//................JSON and API..................
+
+// API is the values that you get from backend(database)
+//Earlier API gives values in xml formate which is very complex to understand.
+//Now it give values in JSON formate.
+//JSON is same as object and array. Mostly Json is like Object only.
+
+//e.g 1 JSON in object fromate. This give error
+/*{
+    name:"Reetu",
+    course:"ReactJS"  
+} */
+
+//e.g 2 this may give error but this is the correct JSON syntax
+{
+    "name"="Reetu",
+    "course"="ReactJS"
+}
+
+//e.g 3 Sometimes you get API in array formate.
+[
+{},
+{},
+{}
+]
 
