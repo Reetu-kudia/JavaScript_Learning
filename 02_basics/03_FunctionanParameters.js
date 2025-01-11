@@ -1,6 +1,6 @@
 // Functions help in resuability of code.
 //e.g 1
-/*function sayMyName(){
+function sayMyName(){
     console.log("R");
     console.log("E");
     console.log("E");
@@ -10,7 +10,7 @@
 
 sayMyName  // this is reference
 sayMyName()  // this is Execute
-*/
+
 
 //e.g 2
 function addTwoNumbers(num1,num2){  // create function and passess parameter
