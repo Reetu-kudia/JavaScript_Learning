@@ -17,7 +17,7 @@ function addTwoNumbers(num1,num2){  // create function and passess parameter
     console.log(num1+num2);
 }
 addTwoNumbers(3,5)
-
+`
 //below one give answer as undefine
 const result=addTwoNumbers(3,2)  //passess argument
 console.log("Result:",result);
@@ -49,7 +49,7 @@ function loginUser(username){
 console.log(loginUser("Reetu")); // return name
 console.log(loginUser());  //  return undefine
 */
-
+/*
 //e.g 6 
 function loginUser2(username){
     if(username===undefined){
@@ -86,5 +86,62 @@ function loginUser5(username="sam"){
     return`${username} just logged in`
 }
 console.log(loginUser5("Divya"));
+*/
 
+//.............................Functions with objects and array...........................................
+
+//e.g 1
+function calculateCardPrice(num1){
+    return num1
+}
+console.log(calculateCardPrice(2));
+
+
+// e.g 2  Use of Rest/Spread Operator
+function calculatePrice(...num1){
+    return num1
+}
+console.log(calculatePrice(200,400,120,980));
+
+
+//e.g 3 Important for Interview
+function calculate(val1,val2,...num1){
+    return num1
+}
+console.log(calculate(200,140,500,600));
+
+//e.g 4 How to pass object in function and use it (Method-1)
+
+const user={
+    username:"Reetu",
+    price:199
+}
+function handleobj(anyobj){
+    console.log(`Username is ${anyobj.username} and price is ${anyobj.price}`);
+}
+handleobj(user)
+
+//e.g 5 Directly passing object in function (Method-2)
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+handleobject({
+    username:"Divya",
+    price:344
+})
+
+//e.g 6 Passing Array in Function [Method 1]
+const array1=[200,230,260,300]
+function arraycount(getarray){
+    return getarray[1]  // 1 is index
+}
+console.log(arraycount(array1));
+
+
+
+//e.g 7 Directly passing aray in funtion [Method 2]
+function arraypassing(getnewarray){
+    return getnewarray[3]
+}
+console.log(arraypassing([100,200,300,400,500]));
 
