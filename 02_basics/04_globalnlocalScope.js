@@ -9,7 +9,7 @@ console.log(b);
 console.log(c); */
 
 
-//{} this is scope in all programming languages.You can see the use of {} in functions,objects,if else,but in object it use for object declaration , but in funtion and if else it use for scope.
+//{} this is scope in all programming languages.You can see the use of {} in functions,objects & if else, but in object it use for object declaration , but in funtion and if else it use for scope.
 
 
 
