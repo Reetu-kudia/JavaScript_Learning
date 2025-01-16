@@ -1,6 +1,6 @@
 //The story of local and global Scope start from these 3 keywords - let,const,var
 
-//e.g 1 //This will print value of all three a,b,c.The question arise is why to use 3 different variables to declare,we can use anyone of these?
+//e.g 1 //This will print value of all three a,b,c.The question arise is why to use 3   variables to declare,we can use anyone of these?
 /*let a=10
 const b=20
 var c=30
