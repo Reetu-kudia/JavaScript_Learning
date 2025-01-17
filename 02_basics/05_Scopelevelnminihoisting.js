@@ -25,6 +25,7 @@ if(true){
 // console.log(username);  // give error bcoz out of scope 
 
 */
+
 //........................................................................................................
 
 //Both the example below are function , but e.g2 is also known as expression.
@@ -57,4 +58,3 @@ const adddtwo=function(num){
 
 
 //hoisting is concept in js that is based on function,how function declare,extension context,how variable are trited,How it make tree.
-//Reetu
