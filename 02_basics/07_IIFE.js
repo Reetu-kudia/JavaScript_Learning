@@ -16,6 +16,7 @@ chai()
 chai2()
 */
 
+/*
 //e.g 3 
 ( function chai3(){    //named IIFE
     console.log(`DB Connected`);
@@ -23,6 +24,7 @@ chai2()
 ( ()=>{       //arrow function
     console.log(`DB Connected Two`);
 })()
+*/
 
 
 //e.g 4 
