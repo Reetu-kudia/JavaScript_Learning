@@ -57,4 +57,5 @@ const adddtwo=function(num){
 */
 
 
+//Reetu
 //hoisting is concept in js that is based on function,how function declare,extension context,how variable are trited,How it make tree.
