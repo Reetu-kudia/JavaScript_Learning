@@ -8,7 +8,7 @@ function chai(){
 }
 chai()
 
-//e.g 2  Function to execute immediately
+//e.g 2  Function to execute immediately    
 
 ( function chai2(){
     console.log(`DB Connected`);
