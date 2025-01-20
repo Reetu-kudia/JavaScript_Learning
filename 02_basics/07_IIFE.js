@@ -7,6 +7,8 @@ function chai(){
     console.log(`DB Connected normal function`);
 }
 chai()
+*/
+/*
 
 //e.g 2  Function to execute immediately    
 
@@ -31,3 +33,4 @@ chai2()
 ( (name)=>{    //unnamed IIFE
     console.log(`DB Connected ${name}`);
 })('Reetu')
+
