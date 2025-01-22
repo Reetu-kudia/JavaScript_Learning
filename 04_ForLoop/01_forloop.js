@@ -46,9 +46,29 @@ for(let i=1;i<=10;i++){
 //e.g 6 Printing Array and its Length
 const myArray=["SpiderMan","Batman","Superman"]
 console.log(myArray.length);
-
 for(let i=0;i<myArray.length;i++){
     const element=myArray[i];
     console.log(element);
 }
 */
+
+//Keywords - break and continue
+/*
+//e.g 1 break
+for(let i=1;i<=20;i++){
+    if(i==5){
+        console.log("Detected 5");
+        break
+    }
+    console.log(`Value of i is ${i}`);
+}
+*/
+
+//e.g 2 continue
+for(let i=1;i<=20;i++){
+    if(i==5){
+        console.log("Detected 5");
+        continue
+    }
+    console.log(`Value of i is ${i}`);
+}
