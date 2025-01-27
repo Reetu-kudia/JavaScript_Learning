@@ -73,4 +73,56 @@ let userbook
 userbook=book.filter((bk)=>{
     return bk.publish>=1900 && bk.genre==='History'
 })
-console.log(userbook);
+// console.log(userbook);
+
+//e.g 5 
+const myNum=[1,2,3,4,5,6,7,8,9,10]
+//const newNum1=myNum.map((num)=>num+10)
+const  newNum1=myNum.map((num)=>{return num+10})
+//console.log(newNum1);
+
+//e.g 6 Chaining-using 2-3 methods/things together
+const myNum1=[1,2,3,4,5,6,7,8,9,10]
+const newNum2=myNum1
+                .map((num)=>num*10)
+                .map((num)=>num+10)
+// console.log(newNum2);   
+
+const myNum2=[1,2,3,4,5,6,7,8,9,10]
+const newNum3=myNum2
+                .map((num)=>num*10)
+                .map((num)=>num+1)
+                .filter((num)=>num>=40)
+//console.log(newNum3);                
+
+//..........................................................................................
+//e.g 7
+const myNum4=[1,2,3]
+const myTotal=myNum4.reduce(function(acc,currval){
+    console.log(`acc:${acc} and currval:${currval}`);
+    return acc+currval
+},0)
+//console.log(myTotal);
+
+//e.g 8 using arrow function in reduce
+const myNum5=[1,2,3]
+const myTotal5=myNum5.reduce((acc,curr)=>acc+curr,0)
+console.log(myTotal5);
+
+//e.g 9 
+const shoppingCart=[
+    {
+        itemName:"Java Course",
+        price:1999
+    },
+    {
+        itemName:"Python Course",
+        price:999
+    },
+    {
+        itemName:"React JS Course",
+        price:4999
+    }
+]
+const amttopay=shoppingCart.reduce((acc,item)=>acc+item.price,0)
+console.log(amttopay);
