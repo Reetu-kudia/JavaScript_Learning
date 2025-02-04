@@ -1,1 +1,23 @@
-//
+//Step-1 Create html file--->Write basic code--->then go to output page---->inspect it ---->Go to Console
+
+//To Target any Element
+//e.g 1 document.getElemnetByID('title')
+document.getElemnetByID('title').id
+document.getElemnetByID('title').name
+document.getElemnetByID('title').className
+document.getElemnetByID('title').getAttribute('id')
+document.getElemnetByID('title').getAttribute('className')
+document.getElemnetByID('title').setAttribute('class','test')  //Overwrite original value
+document.getElemnetByID('title').setAttribute('class','test heading') // test is new value heading is old value //use this method it don't Overwrite
+const Newtitle=document.getElemnetByID('title').id
+
+//Adding Style
+e.g 2 title.Style.backgroundColor='green'
+title.style.padding="15px"
+
+
+//To Target any Element 
+e.g 3 document.getElementByClassName('heading')   //it will give HTML Collection
+
+//Query Selector (give One Value Only)
+e.g 4 document.quesrySelector('h2')
