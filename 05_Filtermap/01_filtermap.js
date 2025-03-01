@@ -95,7 +95,7 @@ const newNum3=myNum2
                 .filter((num)=>num>=40)
 //console.log(newNum3);                
 
-//..........................................................................................
+//
 //e.g 7
 const myNum4=[1,2,3]
 const myTotal=myNum4.reduce(function(acc,currval){
